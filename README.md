@@ -169,6 +169,8 @@ begin remote
 end remote
 ```
 
+You can view my full config [here](https://github.com/jamox/ac-remote/blob/master/unit1/etc/lirc/lircd.conf)
+
 Now that we have the config all done, let's save it to `/etc/lircd.conf` restart lircd `service lirc restart` and start sending the commands to the AC unit.
 
 ### Sending the commands from commandline
