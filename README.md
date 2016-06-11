@@ -104,7 +104,7 @@ Firstly I would suggest having the terminal running the `sudo mode2 -raw /dev/li
 In my case, after a few weeks of the AC usage, I had determined that we mainly wanted to use the following settings (out of all of the possible conditions):
 
 mode | fan speed          | temp
---------------------------------
+-----|--------------------|-----
 heat | auto               | 23
 heat | auto               | 20
 heat | auto               | 18
