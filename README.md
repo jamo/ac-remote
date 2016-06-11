@@ -51,6 +51,20 @@ $  dmesg | grep lirc
 [    7.202830] lirc_rpi: driver registered!
 ```
 
+##### /etc/lirc/hardware.conf
+
+For lirc you'll need to set the driver, the device to use and the module:
+
+The defaults should be mainly ok, these are the main ones I had to fiddle with.
+
+```
+DRIVER="default"
+# usually /dev/lirc0 is the correct setting for systems using udev
+DEVICE="/dev/lirc0"
+MODULES="lirc_rpi"
+```
+
+
 ### Wiring it all up with
 
 Just simply connect the IR receiver (as per it's spec) to +, - and the data to the pin you configured to be the input, in my case pin 23.
